@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Enter payment method information</title>
+  </head>
+  <body>
+    <h1 for="paymentMethodForm">Please, fill up with your personal data and payment method</h1>
+    <form id="paymentMethodForm" action="#" method="post">
+
+        <label for="personalInfo"> Personal Informtion </label>
+        <div id="personalInfo">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" value="" tabindex="1">
+              </div>
+      
+              <div>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" value="" tabindex="2">
+              </div>
+      
+              <div>
+                  <label for="name">Career:</label>
+                  <input type="text" name="career" id="career" value="" tabindex="3">
+              </div>
+      
+              <div>
+                  <label for="name">Date of birth:</label>
+                  <input type="date" name="birth" id="birth" value="" tabindex="4">
+              </div>
+      
+              <div>
+                  <label for="name">Phone Number:</label>
+                  <input type="text" name="phone" id="phone" value="" tabindex="5">
+              </div>
+      
+              <div>
+                  <label for="name">Country:</label>
+                  <input type="text" name="country" id="country" value="" tabindex="6">
+              </div>
+      
+              <div>
+                  <label for="name">City:</label>
+                  <input type="text" name="city" id="city" value="" tabindex="7">
+              </div>
+        </div>
+        <label for="paymentOptions">Payment options</label>
+        <div id="paymentOptions">
+          <label for="radio-choice-1">Credit Card</label>
+          <input type="radio" name="radio-choice" id="radio-choice-1" tabindex="8" value="choice-1">
+      
+          <label for="radio-choice-2">Debit Card</label>
+          <input type="radio" name="radio-choice" id="radio-choice-2" tabindex="9" value="choice-2">
+
+          <label for="radio-choice-3">Cash</label>
+          <input type="radio" name="radio-choice" id="radio-choice-3" tabindex="10" value="choice-3">
+
+          <label for="radio-choice-4">Transfer</label>
+          <input type="radio" name="radio-choice" id="radio-choice-4" tabindex="11" value="choice-4">
+        </div>
+      
+        <div id="installments">
+          <label for="select-choice">Select installments options:</label>
+          <select name="select-choice" id="select-choice">
+            <option value="Choice 1">1 installment </option>
+            <option value="Choice 2">3 installments </option>
+            <option value="Choice 3">3 installments </option>
+          </select>
+        </div>
+
+        <input type="submit" value="Submit">
+      
+      </form>
+  </body>
+</html>

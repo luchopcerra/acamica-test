@@ -1,11 +1,12 @@
 'use strict';
 
 const express = require('express')
-const app = express()
+const app = express();
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
 
-app.get('/', function (req, res) {
-  res.send('hello acamica!!!!!!')
-})
+require('./routes/routes')(app);
+
 
 const mysql      = require('mysql');
 const host = (process.env.NODE_ENV && process.env.NODE_ENV === "debug") ? 'localhost' : "mysql-db";
