@@ -1,0 +1,23 @@
+{
+  "name": "acamica-test",
+  "version": "1.0.0",
+  "description": "Acamica tech test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luchopcerra/acamica-test.git"
+  },
+  "author": "Luciano Pérez Cerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luchopcerra/acamica-test/issues"
+  },
+  "homepage": "https://github.com/luchopcerra/acamica-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
